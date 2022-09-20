@@ -1,0 +1,91 @@
+a {
+    text-decoration: none;
+    font-family: "Navill";
+    line-height: 50px;
+    background: black;
+    color: white;
+    text-align: center;
+  }
+  
+   h1{
+       color: white;
+       background: black;
+       text-align: justify;
+      font-family: "Navill";
+    margin: 10;
+    white-space: pre;
+    font-weight: normal;
+    letter-spacing: 0.125rem;
+    text-align: center;
+   }
+
+   body {
+    display: flex;
+    font-family: "Navill";
+      background-color: black;
+  }
+  
+  div {
+    margin-right: 700px;
+    align-items: right;
+  }
+   
+  
+@font-face {
+    font-family: "Navill";
+    src: url(/Navill.ttf);
+}
+ .panel {
+    position: fixed;
+    left: -15.625em; 
+    width: 15.625em; 
+}
+.wrap {
+    position: relative;
+}
+li {
+    color: white;
+}
+small {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  line-height: 50px;
+  background: black;
+}
+
+div {
+  margin-right: 700px;
+  align-items: right;
+}
+ 
+
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
+body {
+ display: flex;
+ flex-direction: column;
+ height: 100vh;
+  justify-content: center;
+ align-items: center;
+  
+                                                      
+ }
+
+.glowIn {
+      color: white;
+      text-align: center;
+ }
+.glowIn span {
+animation: glow-in 0.8s both;
+text-align: center;
+}
+                                                  
+@keyframes glow-in {
+from {
+opacity: 0;
+}
+65% {
+opacity: 1;
+text-shadow: 0 0 25px white;

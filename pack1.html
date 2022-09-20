@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<link rel='stylesheet' href='main.css'>
+<title>deadsek | packs</title>
+<a class="glowIn" href="https://mega.nz/file/MGUHTTLB#wJPLHjM3v0Lrq9ZYmlkB9chvO4qX5EJzbUX0S5om48A">Wine Pots</a>
+</html>
+<script>
+    "use strict";
+    var glowInTexts = document.querySelectorAll(".glowIn");
+    glowInTexts.forEach(function (glowInText) {
+    var letters = glowInText.textContent.split("");
+    glowInText.textContent = "";
+    letters.forEach(function (letter, i) {
+    var span = document.createElement("span");
+    span.textContent = letter;
+    span.style.animationDelay = i * 0.08 + "s";
+    glowInText.append(span);
+    });
+    });                                                                            
+    </script>
