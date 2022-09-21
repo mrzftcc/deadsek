@@ -61,8 +61,6 @@ div {
   align-items: right;
 }
  
-
-@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700");
 body {
  display: flex;
  flex-direction: column;
@@ -76,6 +74,7 @@ body {
 .glowIn {
       color: white;
       text-align: center;
+      font-family: 'Navill';
  }
 .glowIn span {
 animation: glow-in 0.8s both;
