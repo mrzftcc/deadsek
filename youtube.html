@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<link rel='stylesheet' href='CCS/main.css'>
+<title>deadsek | youtube</title>
+<a href="home"><h1 id="headline" class="glowIn">back</h1></a>
+<a href="https://bit.ly/3BFw30e"class="glowIn">youtube</a>
+</html>
+<script>
+"use strict";
+var glowInTexts = document.querySelectorAll(".glowIn");
+glowInTexts.forEach(function (glowInText) {
+var letters = glowInText.textContent.split("");
+glowInText.textContent = "";
+letters.forEach(function (letter, i) {
+var span = document.createElement("span");
+span.textContent = letter;
+span.style.animationDelay = i * 0.08 + "s";
+glowInText.append(span);
+});
+});                                                                            
+</script>
