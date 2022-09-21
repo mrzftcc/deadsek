@@ -33,7 +33,7 @@ a {
   
 @font-face {
     font-family: "Navill";
-    src: url(Fonts/Navill.ttf);
+    src: url(Navill.ttf);
 }
  .panel {
     position: fixed;
