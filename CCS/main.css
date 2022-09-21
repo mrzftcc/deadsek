@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Navill";
+  src: url(Navill.ttf);
+}
+
 a {
     text-decoration: none;
     font-family: "Navill";
@@ -30,11 +35,7 @@ a {
     align-items: right;
   }
    
-  
-@font-face {
-    font-family: "Navill";
-    src: url(Navill.ttf);
-}
+
  .panel {
     position: fixed;
     left: -15.625em; 
