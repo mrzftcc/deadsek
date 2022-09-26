@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Main";
+  font-family: "HeaderFont";
   src: url(/Fonts/PLANK___.TTF);
 }
 
 @font-face {
-  font-family: "Navill";
-  src: url(/Fonts/Navill.ttf);
+  font-family: "Body";
+  src: url(/Fonts/RedHatMono-Italic-VariableFont_wght.ttf);
 }     
 
 @keyframes glow-in {
@@ -29,7 +29,7 @@ h1{
   color: white;
   background: black;
   text-align: justify;
-  font-family: "Main";
+  font-family: "HeaderFont";
   margin: 10;
   white-space: pre;
   font-weight: normal;
@@ -39,7 +39,7 @@ h1{
 
 body {
   display: flex;
-  font-family: "Navill";
+  font-family: "Body";
   background-color: black;
 }
 
