@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Navill";
-  src: url(/Fonts/Navill.ttf);
+  font-family: "Main";
+  src: url(/Fonts/PLANK___.TTF);
 }
 
 a {
     text-decoration: none;
-    font-family: "Navill";
+    font-family: "Main";
     line-height: 50px;
     background: black;
     color: white;
@@ -16,7 +16,7 @@ a {
        color: white;
        background: black;
        text-align: justify;
-      font-family: "Navill";
+      font-family: "Main";
     margin: 10;
     white-space: pre;
     font-weight: normal;
@@ -26,7 +26,7 @@ a {
 
    body {
     display: flex;
-    font-family: "Navill";
+    font-family: "Main";
       background-color: black;
   }
   
@@ -75,7 +75,7 @@ body {
 .glowIn {
       color: white;
       text-align: center;
-      font-family: 'Navill';
+      font-family: 'Main';
  }
 .glowIn span {
 animation: glow-in 0.8s both;
