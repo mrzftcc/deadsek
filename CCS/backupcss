@@ -45,3 +45,12 @@ a {
 li {
     color: white;
 }
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/Favicon/aoafavicon/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Favicon/aoafavicon/favicon-32x32">
+<link rel="icon" type="image/png" sizes="16x16" href="/Favicon/aoafavicon/favicon-16x16.png">
+<link rel="manifest" href="/Favicon/aoafavicon/site.webmanifest">
+<meta name="msapplication-TileColor" content="/Favicon/aoafavicon/msapplication-TileColor">
+<meta name="msapplication-TileImage" content="/Favicon/aoafavicon/msapplication-TileImage">
+<meta name="theme-color" content="#ffffff">
+</head>
