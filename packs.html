@@ -16,15 +16,15 @@
 </html>
 <script>
     "use strict";
-    var glowInTexts = document.querySelectorAll(".glowIn");
-    glowInTexts.forEach(function (glowInText) {
-    var letters = glowInText.textContent.split("");
+    var glowIn = document.querySelectorAll(".glowIn");
+    glowIn.forEach(function (glowIn) {
+    var letters = glowText.textContent.split("");
     glowInText.textContent = "";
     letters.forEach(function (letter, i) {
     var span = document.createElement("span");
     span.textContent = letter;
     span.style.animationDelay = i * 0.08 + "s";
-    glowInText.append(span);
+    glowIn.append(span);
     });
     });                                                                            
-</script>
+    </script>

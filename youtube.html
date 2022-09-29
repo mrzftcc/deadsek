@@ -17,11 +17,11 @@
     glowIn.forEach(function (glowIn) {
     var letters = glowIn.textContent.split("");
     glowIn.textContent = "";
-    letters.forEach(function (letter, i) {
+    letters.forEach( function (letter, i) {
     var span = document.createElement("span");
     span.textContent = letter;
     span.style.animationDelay = i * 0.08 + "s";
     glowIn.append(span);
     });
     });                                                                            
-    </script>
+</script>
