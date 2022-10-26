@@ -89,3 +89,8 @@ body {
 .wrap {
  position: relative;
 }
+
+.skullart {
+  white-space: pre;
+  font-family: monospace;
+}
