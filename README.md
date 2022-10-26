@@ -1,4 +1,6 @@
-# deadsek
-Portfolio Website
-
-For Personal Use + CTI Final Project
+     |     '       /  |
+     /__      ___ (  /
+     \\--`-'-|`---\\ |
+      |' _/   ` __/ /
+      '._  W    ,--'
+         |_:_._/
