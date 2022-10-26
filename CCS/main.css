@@ -55,11 +55,6 @@ li {
 small {
   color: white;
 }
-
-div {
-  margin-right: 700px;
-  align-items: right;
-}
  
 body {
  display: flex;
