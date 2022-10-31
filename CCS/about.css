@@ -19,6 +19,13 @@
 
 a {
   text-decoration: none;
+  display:inline-block;
+  white-space:pre;
+  letter-spacing:0;
+  line-height:1.4;
+  font-family: Body;
+  font-size:10px;
+  color: #3F0;
 }
   
 h1{
