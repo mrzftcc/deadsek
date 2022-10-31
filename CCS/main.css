@@ -67,7 +67,7 @@ body {
 }
 
 .glowIn span {
-  animation: glow-in 0.8s both;
+  animation: glow-in 0.1s both;
   text-align: center;
 }
 
