@@ -77,7 +77,17 @@ body {
  position: relative;
 }
 
-.skullart {
-  font-family: monospace;
-  color: white;
+.ascii {
+  text-decoration: none;
+  color: #3F0; background: black;
+    display:inline-block;
+    white-space:pre;
+    letter-spacing:0;
+    line-height:1;
+    font-family:'Consolas','BitstreamVeraSansMono','CourierNew',Courier,monospace;
+    font: size 5px;
+    
+    border-width:1px;
+    border-style:solid;
+    border-color:black;
 }
