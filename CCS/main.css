@@ -91,3 +91,8 @@ body {
   color: white;
   text-align: center;
 }
+
+pre {
+  text-align:center;
+  font-size: 1vw;
+} 
