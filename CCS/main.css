@@ -51,10 +51,6 @@ li {
 small {
   color: white;
 }
-
-div {
-  margin-right: 700px;
-}
  
 body {
  display: flex;
@@ -86,10 +82,8 @@ body {
 }
 
 .skullart {
-  white-space: pre;
   font-family: monospace;
   color: white;
-  text-align: center;
 }
 
 pre {
