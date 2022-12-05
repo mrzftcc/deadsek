@@ -92,3 +92,7 @@ body {
 .hidden {
   color: black;
 }
+
+p {
+  text-align: center;
+}
