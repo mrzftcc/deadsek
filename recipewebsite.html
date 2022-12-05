@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<link rel='stylesheet' href='CCS/main.css'>
+<title>deadsek | recipes</title>
+<a href="civmc"><h1 id="headline" class="glowIn">Recipe Website Info</h1></a>
+<a class="glowIn" href="https://civtechtree.netlify.app/">Website</a>
+<p class="glowIn">This website contains every recipe in the current config of the CivMC Factory Mod. You can search for every recipe and where it can be found.</p>
+
+</html>
+<script>
+    "use strict";
+    var glowIn = document.querySelectorAll(".glowIn");
+    glowIn.forEach(function (glowIn) {
+    var letters = glowText.textContent.split("");
+    glowInText.textContent = "";
+    letters.forEach(function (letter, i) {
+    var span = document.createElement("span");
+    span.textContent = letter;
+    span.style.animationDelay = i * 0.08 + "s";
+    glowIn.append(span);
+    });
+    });                                                                            
+    </script>
