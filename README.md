@@ -8,4 +8,4 @@
 
      www.deadsek.net
 
-     CivMC Informational Website + Portfolio
+     CivMC Informational Website
